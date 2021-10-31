@@ -7,7 +7,7 @@ public class Elevator {
     public static int currentFloor;
     int destinationFloor;
 
-    private Elv_States State = new Elv_States();
+    private final Elv_States State = new Elv_States();
 
 
     /**

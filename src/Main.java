@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     // Hier kann man den currentFloor aendern, auf dem sich der Aufzug am Anfang befindet.
-    private static int currentFloor = 5;
+    private final static int currentFloor = 5;
 
 
     public static void main(String[] args) {
@@ -32,8 +32,7 @@ public class Main {
 
         if (dest_floor >= 0 && dest_floor <= 10) {
             System.out.println("------------------------------------");
-            Elevator elv;
-            elv = new Elevator(dest_floor, currentFloor);
+            new Elevator(dest_floor, currentFloor);
             in.close();
         } else {
             System.err.println("The chosen floor is not a floor between 0 and 10.");
