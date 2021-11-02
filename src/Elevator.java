@@ -11,7 +11,7 @@ public class Elevator {
 
 
     /**
-     * Speichert destinationFlorr und currentFloor und startet die Fahrstuhlfahrt mit der Methode checkDestinationFloor().
+     * Speichert destinationFloor und currentFloor und startet die Fahrstuhlfahrt mit der Methode checkDestinationFloor().
      * @param destinationFloor Die Etage zu der man moechte.
      * @param currentFloor Die Etage auf der man sich befindet.
      */
